@@ -6,7 +6,7 @@
 <title>ViciousInks Gallery</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<link rel="icon" href="images/logo-removebg.png" type="image/png">
+<link rel="icon" href="images/Logo/logo-white.PNG" type="image/png">
 </head>
 <body class="bg-gray-900 text-white pt-20 md:pt-24">
 
@@ -18,7 +18,7 @@
 
   <!-- Branding -->
   <div class="flex items-center gap-3">
-    <img src="images/logo-removebg.png" alt="ViciousInks Logo" class="h-16 md:h-20 w-auto">
+    <img src="images/Logo/logo-white.PNG" alt="ViciousInks Logo" class="h-20 w-auto">
     <div class="flex flex-col">
       <span class="text-xl md:text-2xl font-bold tracking-wide text-white">ViciousInks</span>
       <span class="text-xs md:text-sm text-red-400 italic">Tattoos & Piercings</span>
@@ -57,6 +57,20 @@
   <!-- Tattoos Feed -->
   <div id="tattoos" class="feed space-y-6">
     <div class="relative rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+    <video loading="lazy" 
+            src="images/New/vid.mp4" 
+            class="w-full object-cover rounded-xl" 
+            controls 
+            muted 
+            autoplay
+            loop 
+            playsinline>
+        Your browser does not support the video tag.
+    </video>
+    <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 p-3 flex justify-between items-center">
+
+    </div>
+    </div><div class="relative rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
     <video loading="lazy" 
             src="images/tattoos/Tattoo vid.mp4" 
             class="w-full object-cover rounded-xl" 
@@ -266,6 +280,19 @@
 
   <!-- Piercings Feed -->
   <div id="piercings" class="feed hidden space-y-6">
+    <div class="relative rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+      <video loading="lazy" 
+                  src="images/New/vid P.mp4" 
+                  class="w-full object-cover rounded-xl" 
+                  controls 
+                  muted 
+                  autoplay
+                  loop 
+                  playsinline>
+              Your browser does not support the video tag.
+          </video>
+      </div>
+    
     <div class="relative rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
       <img loading="lazy" src="images/nose.jpg" alt="Piercing" class="w-full object-cover rounded-xl">
     </div>
